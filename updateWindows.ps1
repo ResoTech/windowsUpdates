@@ -18,6 +18,3 @@ if ($Updates) {
 else {
     Write-Output "No updates available."
 }
-
-# Reboot the machine
-Restart-Computer
