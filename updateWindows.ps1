@@ -1,10 +1,5 @@
 # Set execution policy to unrestricted
-
-#testing
-#$CommandTimeout=0
-#$ExecutionTimeout = -1
-
-#Set-ExecutionPolicy -ExecutionPolicy Unrestricted
+Set-ExecutionPolicy -ExecutionPolicy Unrestricted
 
 
 # Install the PSWindowsUpdate module
