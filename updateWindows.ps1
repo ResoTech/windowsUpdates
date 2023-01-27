@@ -2,7 +2,7 @@
 
 #testing
 #$CommandTimeout=0
-$ExecutionTimeout = -1
+#$ExecutionTimeout = -1
 
 #Set-ExecutionPolicy -ExecutionPolicy Unrestricted
 
