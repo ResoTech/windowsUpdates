@@ -1,7 +1,6 @@
 # Set execution policy to unrestricted
 Set-ExecutionPolicy -ExecutionPolicy Unrestricted
 
-
 # Install the PSWindowsUpdate module
 Install-Module -Name PSWindowsUpdate
 
