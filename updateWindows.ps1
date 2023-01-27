@@ -4,8 +4,8 @@
 #$CommandTimeout=0
 $ExecutionTimeout = -1
 
-#Set-ExecutionPolicy -ExecutionPolicy Unrestricted
-Set-ExecutionPolicy -ExecutionPolicy bypass
+Set-ExecutionPolicy -ExecutionPolicy Unrestricted
+#Set-ExecutionPolicy -ExecutionPolicy bypass
 
 # Install the PSWindowsUpdate module
 Install-Module -Name PSWindowsUpdate
