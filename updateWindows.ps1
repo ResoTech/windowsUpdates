@@ -1,5 +1,6 @@
 # Set execution policy to unrestricted
-Set-ExecutionPolicy -ExecutionPolicy Unrestricted
+#Set-ExecutionPolicy -ExecutionPolicy Unrestricted
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
 
 # Install the PSWindowsUpdate module
 Install-Module -Name PSWindowsUpdate
