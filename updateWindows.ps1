@@ -12,7 +12,7 @@ $Updates = Get-WUInstall
 
 # Install updates
 if ($Updates) {
-    timeout /t 86400
+    timeout /t 0
     Write-Output "Installing updates..."
     Install-WindowsUpdate -Install -AcceptAll -AutoReboot
 }
